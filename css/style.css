@@ -172,6 +172,10 @@ body{
   cursor: pointer;
 }  
 
+.download-button:hover{
+   background: #000;
+}
+
 .download-button span{
   /*margin: auto;*/
   position: absolute;
