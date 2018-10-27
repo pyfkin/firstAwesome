@@ -4,52 +4,101 @@
 	<title>Awesome site</title>
 	<link rel="stylesheet" type="text/css" href="css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="header">
-		<span class="header-theme">WHY THIS IS AWESOME</span>
-		<div class="header-line"></div>
-		<p class="header-topic">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-	</div>
-	<div class="content">
-		<div class="column column-1">
-			<div class="logo-circle">
-				<img class="logo-type" src="picture/1.png">
+	<header class="header-main">
+		<nav class="header-navbar container">
+			<a class="navbar-logo" href="index.html">
+				<img src="picture/logo.png" alt="Логотип Awesome site">
+			</a>
+			<div class="navbar-wrapper">
+				<ul class="navbar-menu">
+					<li><a href="#">Features</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Reviews</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
 			</div>
-			<div class="column-text">
-				<p class="column-theme">Thoughtful Design</p>
-				<p class="column-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies id elit vel dignissim. In at sodales enim. Pellentesque ultricies rutrum arcu eu sodales.</p>
+		</nav>	
+	</header>
+
+
+	<main class="">
+
+
+		<section class="head container">
+			<div class="tagline">
+				<img src="picture/logoBig.png">
+				<h3>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h3>
+				<div class="head-line"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+					euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+					accumsan et viverra justo commodo.</p>
+				<div class="head-download-button">
+					<span>Download</span>
+				</div>
+			</div>
+			<div class="form-registration">
+				<form >
+					<fieldset class="form-items">
+						<label>Try Your <span>FREE</span> Trial Today</label>
+						<input type="text" name="userName" placeholder="Name">
+						<input type="text" name="userEmail" placeholder="Email">
+						<input type="text" name="userPassword" placeholder="Password">
+						<input type="submit" name="buttonClick" value="Get Started">
+					</fieldset>
+				</form>
+			</div>
+		</section>
+
+		<div class="header">
+			<span class="header-theme">WHY THIS IS AWESOME</span>
+			<div class="header-line"></div>
+			<p class="header-topic">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+		</div>
+		<div class="content">
+			<div class="column column-1">
+				<div class="logo-circle">
+					<img class="logo-type" src="picture/1.png">
+				</div>
+				<div class="column-text">
+					<p class="column-theme">Thoughtful Design</p>
+					<p class="column-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies id elit vel dignissim. In at sodales enim. Pellentesque ultricies rutrum arcu eu sodales.</p>
+				</div>
+			</div>
+			<div class="column column-2">
+				<div class="logo-circle">
+					<img class="logo-type"  src="picture/2.png" >
+				</div>
+				<div class="column-text">
+					<p class="column-theme">Well Crafted</p>
+					<p class="column-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies id elit vel dignissim. In at sodales enim. Pellentesque ultricies rutrum arcu eu sodales.</p>
+				</div>
+			</div>
+			<div class="column column-3">
+				<div class="logo-circle">
+					<img class="logo-type"  src="picture/3.png">
+				</div>
+				<div class="column-text">
+					<p class="column-theme">Easy to Customize</p>
+					<p class="column-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies id elit vel dignissim. In at sodales enim. Pellentesque ultricies rutrum arcu eu sodales.</p>
+				</div>
 			</div>
 		</div>
-		<div class="column column-2">
-			<div class="logo-circle">
-				<img class="logo-type"  src="picture/2.png" >
-			</div>
-			<div class="column-text">
-				<p class="column-theme">Well Crafted</p>
-				<p class="column-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies id elit vel dignissim. In at sodales enim. Pellentesque ultricies rutrum arcu eu sodales.</p>
-			</div>
-		</div>
-		<div class="column column-3">
-			<div class="logo-circle">
-				<img class="logo-type"  src="picture/3.png">
-			</div>
-			<div class="column-text">
-				<p class="column-theme">Easy to Customize</p>
-				<p class="column-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies id elit vel dignissim. In at sodales enim. Pellentesque ultricies rutrum arcu eu sodales.</p>
+		<div class="download">
+			<p class="download-theme">STYLISH AXURE DESIGN</p>
+			<div class="download-line"></div>
+			<p class="download-text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+			<div class="download-button">
+				<span>Download</span>
+				<!-- <p class="download-button-text">Download</p> -->
 			</div>
 		</div>
-	</div>
-	<div class="download">
-		<p class="download-theme">STYLISH AXURE DESIGN</p>
-		<div class="download-line"></div>
-		<p class="download-text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-		<div class="download-button">
-			<span>Download</span>
-			<!-- <p class="download-button-text">Download</p> -->
-		</div>
-	</div>
+	</main>
 	<div class="footer">
 		<div class="icons">
 			<i class="fab fa-facebook-f"></i>
@@ -59,6 +108,7 @@
 			<i class="fab fa-instagram"></i>
 			<i class="fab fa-instagram"></i>
 			<i class="fas fa-rss"></i>
+
 		</div>
 		<div class="copyright">
 			<span>© 2015 Axure Themes</span>
