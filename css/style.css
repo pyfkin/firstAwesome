@@ -10,6 +10,7 @@
 
 .header-navbar{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -19,8 +20,7 @@
 }
 
 .header-navbar img{
-  width: 79px;
-  height: 27px;
+  width: 80px;
 }
 
 .navbar-wrapper{
@@ -58,6 +58,7 @@ header:after{
   background-size: cover;
   background-position: center;
   height: 642px;
+
 }
 
 .head .container{
@@ -189,6 +190,7 @@ header:after{
   margin: auto;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  cursor: pointer;
 }
 
 .brand .container{
@@ -196,6 +198,10 @@ header:after{
   justify-content: space-between;
   align-self: center;
   margin: auto;
+}
+
+.button-click input:hover{
+  background: #ffb57f;
 }
 
 .brand-info{
@@ -362,6 +368,7 @@ header:after{
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+
 }
 
 .tab-text-p{
@@ -393,6 +400,21 @@ header:after{
   padding-top: 168px;
   padding-right: 8px;
 }
+
+  .tab-pict img:hover{
+/*    transform: scale(1.3) rotate(70deg);
+    transition: .5s;*/
+    animation: move  3s;
+  }
+
+@keyframes move{
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(45px);
+    }
+  }
 
 .our-process .container{
   display: flex;
@@ -703,10 +725,6 @@ header:after{
 
 }
 
-
-
-
-
 .download{
   /*max-width: 1400px;*/
   height: 320px;
@@ -778,6 +796,43 @@ header:after{
   text-align: center;
   vertical-align: middle;
 }
+
+.contact-theme{
+  display: block;
+  font-size: 36px;
+  font-family: "Raleway";
+  color: rgb(33, 33, 33);
+  line-height: 1.194;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-line{
+    background: #ff9933;
+  width: 64px;
+  height: 2px;
+  padding: 0;
+  margin: 23px auto 25px;
+}
+
+.contact-topic{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
   margin-top: 614px;
